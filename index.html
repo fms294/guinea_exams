@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head >
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" /> -->
+    <title>Guinea Exams: Your Exams in Hand</title>
+</head>
+
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="img/logo.jpg" class="img-fluid" alt="logo image">
+                </div>
+                <div class="col ">
+                    <h1>Guinea Exams</h1>
+                    <h2>Your exams in Hand</h2>
+                </div>
+           </div>
+        </div>
+    </header>
+
+    <!-- <nav class="navbar navbar-dark navbar-expand-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.jpg" height="30" width="30"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#guineaexams">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="guineaexams">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#"> <i class="fa fa-home fa-lg"></i> Home  </a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>  About  </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i>  Sites  </a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i>  Contact  </a></li>
+                </ul>
+                <span class="navbar-text ml-auto">
+                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                        <i class="fa fa-sign-in"></i> Log in
+                    </a>
+            
+                </span>
+                <span class="navbar-text ml-4">
+                    <a role="button" data-toggle="modal" data-target="#signupModal">
+                        <i class="fa fa-user-plus"></i> Sign up
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav> -->
+    <nav class="navbar navbar-dark navbar-expand-sm sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#guineaexams">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="guineaexams">
+                <ul class="nav navbar-nav mx-auto">
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" > Program Categories</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Terminal Science Math</a>
+                            <a class="dropdown-item" href="#">Terminal Science Experimentale</a>
+                            <a class="dropdown-item" href="#">Terminal Science Sociale</a>
+                            <a class="dropdown-item" href="#">BEPC</a>
+                        </div>
+                    </li>
+
+                </ul>
+                <span class="navbar-text ml-auto">
+                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                        <i class="fa fa-sign-in"></i> Log in
+                    </a>
+            
+                </span>
+                <span class="navbar-text ml-4">
+                    <a role="button" data-toggle="modal" data-target="#signupModal">
+                        <i class="fa fa-user-plus"></i> Sign up
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title"> Login </h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form >
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label for="loginEmail" class="sr-only">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label for="loginPassword" class="sr-only">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input">
+                                        <label class="form-check-label">Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        
+        <h1>Terminal Science Experimentale</h1>
+    </div>
+
+    <div class="container">
+        <h1>Terminal Science Social</h1>
+    </div>
+
+    <div class="container">
+        <h1>Terminal Science Maths</h1>
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Stories</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"> <i class="fa fa-instagram"></i></a> 
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+            </div>
+            <div class="col-sm-4 text-center">
+                <a role="button" class="btn btn-link" href="tel:+620204087"><i class="fa fa-phone"></i> +224-620-20-40-87</a><br>
+                <a role="button" class="btn btn-link" href="mailto:guineaexams.com"><i class="fa fa-envelope-o"></i> client@guineaexams.com</a>
+            </div>
+            <div class="col  text-center">
+                <small>&copy; Copyright 2020, Guinea Exams</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="js/scripts.js"> </script>
+</body>
+=
+</html>
